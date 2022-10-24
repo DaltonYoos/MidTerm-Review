@@ -51,11 +51,11 @@ error message as shown in output.JPG'''
 
 #open the csv file in read mode
 
-bookings = open("bookings.csv", "r")
+bookings_file = open("bookings.csv", "r")
 
 #create a csv object from the file object from the step above
 
-csvfile = csv.reader(bookings,delimiter=",")
+csvfile = csv.reader(bookings_file,delimiter=",")
 next(csvfile)
 
 # use a for loop to iterate through each record in the bookings file
