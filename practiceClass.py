@@ -48,6 +48,7 @@ class Play:
 class Booking:
 
     def __init__(self,client_name,seat_num):
+        
         self.__client_name = client_name
         self.__seat_num = seat_num
 
