@@ -75,7 +75,7 @@ for line in csvfile:
             print()
             print("***** ERROR *****")
             print("Guest Name: ", line[1])
-            print("Sorry, the show:", hamilton.get_name(), "is sold out")
+            print("Sorry, the show:", hamilton.get_name(), "is sold out.")
             print("**********")
             print()
             print()
